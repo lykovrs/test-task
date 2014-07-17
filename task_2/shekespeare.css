@@ -1,0 +1,120 @@
+.clearfix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;
+  height: 0; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none; }
+
+html {
+  height: 101%;
+  /* always display scrollbars */ }
+
+body {
+  font-size: 62.5%;
+  line-height: 1;
+  font-family: Arial, Tahoma, Verdana, sans-serif; }
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+strong {
+  font-weight: bold; }
+
+input {
+  outline: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  border: 0;
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.d {
+  position: relative;
+  max-width: 45em;
+  margin: 0 auto;
+  background: #fff;
+  padding: 1em;
+  color: #444;
+  font: 'Helvetica Neue', Arial, sans-serif; }
+
+.d__header {
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 2.8em; }
+
+.d__place {
+  font-size: 1.8em;
+  line-height: 2em; }
+
+.d__about {
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.6em; }
+
+.d__text {
+  margin: 1em 0; }
+
+.d__item {
+  margin-bottom: 0.5em;
+  display: block;
+  padding: 0.85em; }
+
+.d__speaker {
+  float: left;
+  clear: left;
+  width: 18%; }
+
+.d__speaker-name {
+  text-transform: lowercase;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.5em;
+  font-style: italic;
+  margin-top: 0.5em; }
+
+.d__icon {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; }
+
+.d__message {
+  margin: 0 0 0 20%;
+  padding: 0.5em;
+  background: #eee;
+  border-radius: 12px;
+  font-size: 1.5em; }
+
+.d__source {
+  display: block;
+  text-align: center; }

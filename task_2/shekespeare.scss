@@ -1,0 +1,74 @@
+@import "../base";
+
+.d {
+  	position: relative;
+  	max-width: 45em;
+  	margin: 0 auto;
+ 	background: #fff;
+  	padding: 1em;
+  	color: #444;
+  	font: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.d__header {
+	font-size: 2.5em;
+	font-weight: bold;
+	line-height: 2.8em;
+}
+
+.d__place {
+	font-size: 1.8em;
+	line-height: 2em;
+}
+
+.d__about {
+	font-size: 1.5em;
+	font-style: italic;
+	line-height: 1.6em;
+}
+
+.d__text {
+	margin: 1em 0;
+}
+
+.d__item {
+	margin-bottom: 0.5em;
+	display: block;
+	padding: 0.85em;
+}
+
+.d__speaker {
+	float: left;
+	clear: left;
+	width: 18%;
+}
+
+.d__speaker-name {
+	text-transform: lowercase;
+	text-align: center;
+	font-weight: normal;
+	font-size: 1.5em;
+	font-style: italic;
+	margin-top: 0.5em;
+}
+
+.d__icon {
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+.d__message {
+	margin: 0 0 0 20%;
+	padding: 0.5em;
+	background: #eee;
+	border-radius: 12px;
+	font-size: 1.5em;
+}
+
+.d__source {
+	display: block;
+	text-align: center;
+}
