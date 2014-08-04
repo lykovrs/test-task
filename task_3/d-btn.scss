@@ -1,0 +1,89 @@
+@import "../baseOld";
+@import 'compass';
+
+
+.d-btn-ctrl {
+  position: absolute;
+  bottom: 103px;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+ }
+
+.d-btn {
+    padding: 0 0 0 60px;
+    height: 74px;
+    min-width: 266px;
+    margin: 0 33px;
+    font: bold 28px "Trebuchet MS", Helvetica, sans-serif;
+    position: relative;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.25);
+  
+    @include rounded(10px);
+
+    &:hover {
+      color: #fff;
+    }
+
+    &:before {
+      position: absolute;
+      display: block;
+      content: " ";
+      background: url("img/icons.png") no-repeat;
+      width: 41px;
+      height: 41px;
+      left: 15px;
+      top: 50%;
+      margin-top: -20px;
+    }
+}
+
+.d-btn_type_yes {
+  color: #d3f2c2;
+  border: 1px solid #539d2a;
+  background: #61c928;
+
+  @include shadowed(4px 4px 10px 0px rgba(49, 102, 20, 0.75));
+
+  &:before {
+//    background-position: 0px 0px;
+    @include border-radius(10px);
+
+  }
+
+
+
+
+
+  &:hover {
+    text-shadow: 0px 0px 8px rgba(196, 222, 182, 0.5);
+
+    @include shadowed(6px 6px 10px 0px rgba(49, 102, 20, 0.75));
+  }
+
+
+}
+
+
+.d-btn_type_no {
+  color: #f2c2c2;
+  border: 1px solid #9d2b2b;
+  background: #c92828;
+
+  @include shadowed(4px 4px 10px 0px rgba(102, 20, 20, 0.75));
+
+
+  &:before {
+    background-position: -42px 0;
+  }
+
+  &:hover {
+    text-shadow: 0px 0px 8px rgba(223, 182, 182, 0.5);
+
+    @include shadowed(6px 6px 10px 0px rgba(102, 20, 20, 0.75));
+  }
+
+
+
+}
