@@ -1,4 +1,4 @@
-@import "../baseOld";
+@import "../base";
 @import "d-btn";
 
 
@@ -25,7 +25,7 @@
   text-align: center;
   color: #ccc;
   font-size: 24px;
-  padding: 15px 15px 8px;
+  padding: 15px 15px 5px;
 
 
   @include rounded(10px 10px 0 0);
@@ -36,7 +36,7 @@
   font-size: 14px;
   line-height: 17px;
   color: #999;
-  padding: 0 15px 10px;
+  padding: 0 15px 13px;
 
   @include rounded(0 0 10px 10px);
 

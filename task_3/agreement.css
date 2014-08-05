@@ -1,72 +1,275 @@
-/*
-Syntax error: File to import not found or unreadable: compass.
-              Load path: C:/Users/Roman/Documents/test-task/task_3 (DEPRECATED)
-        on line 2 of d-btn.scss
-        from line 2 of agreement.scss
+.clearfix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;
+  height: 0; }
 
-1: @import "../baseOld";
-2: @import "d-btn";
-3: 
-4: 
-5: .content {
-6:   background: url("img/bg.jpg") no-repeat #000 top center;
-7: }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none; }
 
-Backtrace:
-d-btn.scss:2
-agreement.scss:2
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/import_node.rb:66:in `rescue in import'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/import_node.rb:45:in `import'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:283:in `visit_import'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/stack.rb:121:in `with_frame'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:152:in `visit'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:297:in `block (2 levels) in visit_import'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:297:in `map'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:297:in `block in visit_import'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/stack.rb:121:in `with_frame'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:294:in `visit_import'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/stack.rb:121:in `with_frame'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:152:in `visit'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:151:in `visit'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/engine.rb:274:in `render'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:378:in `update_stylesheet'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `each'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/plugin.rb:82:in `update_stylesheets'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/exec.rb:489:in `watch_or_update'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/exec.rb:346:in `process_result'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/exec.rb:43:in `parse'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/lib/sass/exec.rb:22:in `parse!'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.8/bin/scss:13:in `<top (required)>'
-C:/Ruby200-x64/bin/scss:23:in `load'
-C:/Ruby200-x64/bin/scss:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: compass.\A               Load path: C:/Users/Roman/Documents/test-task/task_3 (DEPRECATED)\A         on line 2 of d-btn.scss\A         from line 2 of agreement.scss\A \A 1: @import \"../baseOld\";\A 2: @import \"d-btn\";\A 3: \A 4: \A 5: .content {\A 6:   background: url(\"img/bg.jpg\") no-repeat #000 top center;\A 7: }"; }
+html {
+  height: 101%;
+  /* always display scrollbars */ }
+
+body {
+  font-size: 62.5%;
+  line-height: 1;
+  font-family: Arial, Tahoma, Verdana, sans-serif; }
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+strong {
+  font-weight: bold; }
+
+input {
+  outline: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  border: 0;
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.clearfix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;
+  height: 0; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none; }
+
+html {
+  height: 101%;
+  /* always display scrollbars */ }
+
+body {
+  font-size: 62.5%;
+  line-height: 1;
+  font-family: Arial, Tahoma, Verdana, sans-serif; }
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+strong {
+  font-weight: bold; }
+
+input {
+  outline: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  border: 0;
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.d-btn-ctrl {
+  position: absolute;
+  bottom: 104px;
+  left: 0;
+  right: 0;
+  text-align: center; }
+
+.d-btn {
+  padding: 0 4px 4px 60px;
+  height: 73px;
+  min-width: 266px;
+  margin: 0 33px;
+  font: bold 28px "Trebuchet MS", Helvetica, sans-serif;
+  position: relative;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.25);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px; }
+  .d-btn:hover {
+    color: #fff; }
+  .d-btn:before {
+    position: absolute;
+    display: block;
+    content: " ";
+    background: url("img/icons.png") no-repeat;
+    width: 41px;
+    height: 41px;
+    left: 16px;
+    top: 50%;
+    margin-top: -22px; }
+  .d-btn:after {
+    position: absolute;
+    display: block;
+    content: " ";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.15);
+    box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.15);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px; }
+
+.d-btn_type_yes {
+  color: #d3f2c2;
+  border: 1px solid #539d2a;
+  background: #61c928;
+  -moz-box-shadow: 4px 4px 10px 0px rgba(49, 102, 20, 0.75);
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(49, 102, 20, 0.75);
+  box-shadow: 4px 4px 10px 0px rgba(49, 102, 20, 0.75);
+  background: #87d65b;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg3ZDY1YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjElIiBzdG9wLWNvbG9yPSIjNzBjZjNlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTclIiBzdG9wLWNvbG9yPSIjNmNjODNhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNDglIiBzdG9wLWNvbG9yPSIjNWNiODJiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNDklIiBzdG9wLWNvbG9yPSIjNWNiODI5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjNTJiMzFlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNzIlIiBzdG9wLWNvbG9yPSIjNGNhOTFhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iOTAlIiBzdG9wLWNvbG9yPSIjNGFhNjE5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzU0YjAyMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(top, #87d65b 0%, #70cf3e 1%, #6cc83a 17%, #5cb82b 48%, #5cb829 49%, #52b31e 51%, #4ca91a 72%, #4aa619 90%, #54b022 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #87d65b), color-stop(1%, #70cf3e), color-stop(17%, #6cc83a), color-stop(48%, #5cb82b), color-stop(49%, #5cb829), color-stop(51%, #52b31e), color-stop(72%, #4ca91a), color-stop(90%, #4aa619), color-stop(100%, #54b022));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #87d65b 0%, #70cf3e 1%, #6cc83a 17%, #5cb82b 48%, #5cb829 49%, #52b31e 51%, #4ca91a 72%, #4aa619 90%, #54b022 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #87d65b 0%, #70cf3e 1%, #6cc83a 17%, #5cb82b 48%, #5cb829 49%, #52b31e 51%, #4ca91a 72%, #4aa619 90%, #54b022 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #87d65b 0%, #70cf3e 1%, #6cc83a 17%, #5cb82b 48%, #5cb829 49%, #52b31e 51%, #4ca91a 72%, #4aa619 90%, #54b022 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #87d65b 0%, #70cf3e 1%, #6cc83a 17%, #5cb82b 48%, #5cb829 49%, #52b31e 51%, #4ca91a 72%, #4aa619 90%, #54b022 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#87d65b', endColorstr='#54b022',GradientType=0 );
+  /* IE6-8 */ }
+  .d-btn_type_yes:before {
+    background-position: -42px 0; }
+  .d-btn_type_yes:hover {
+    text-shadow: 0px 0px 8px rgba(196, 222, 182, 0.5), -1px -1px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 6px 6px 10px 0px rgba(49, 102, 20, 0.75);
+    -webkit-box-shadow: 6px 6px 10px 0px rgba(49, 102, 20, 0.75);
+    box-shadow: 6px 6px 10px 0px rgba(49, 102, 20, 0.75); }
+
+.d-btn_type_no {
+  color: #f2c2c2;
+  border: 1px solid #9d2b2b;
+  background: #c92828;
+  -moz-box-shadow: 4px 4px 10px 0px rgba(102, 20, 20, 0.75);
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(102, 20, 20, 0.75);
+  box-shadow: 4px 4px 10px 0px rgba(102, 20, 20, 0.75);
+  background: #cf3e3e;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NmM2UzZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE2JSIgc3RvcC1jb2xvcj0iI2M4M2EzYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iI2I4MmIyYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ5JSIgc3RvcC1jb2xvcj0iI2I4MjkyOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2IzMWUxZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUzJSIgc3RvcC1jb2xvcj0iI2IxMWQxZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcyJSIgc3RvcC1jb2xvcj0iI2E5MWExYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjkwJSIgc3RvcC1jb2xvcj0iI2E2MTkxOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiMDIyMjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #cf3e3e 0%, #c83a3a 16%, #b82b2b 47%, #b82929 49%, #b31e1e 50%, #b11d1d 53%, #a91a1a 72%, #a61919 90%, #b02222 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cf3e3e), color-stop(16%, #c83a3a), color-stop(47%, #b82b2b), color-stop(49%, #b82929), color-stop(50%, #b31e1e), color-stop(53%, #b11d1d), color-stop(72%, #a91a1a), color-stop(90%, #a61919), color-stop(100%, #b02222));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #cf3e3e 0%, #c83a3a 16%, #b82b2b 47%, #b82929 49%, #b31e1e 50%, #b11d1d 53%, #a91a1a 72%, #a61919 90%, #b02222 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #cf3e3e 0%, #c83a3a 16%, #b82b2b 47%, #b82929 49%, #b31e1e 50%, #b11d1d 53%, #a91a1a 72%, #a61919 90%, #b02222 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #cf3e3e 0%, #c83a3a 16%, #b82b2b 47%, #b82929 49%, #b31e1e 50%, #b11d1d 53%, #a91a1a 72%, #a61919 90%, #b02222 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #cf3e3e 0%, #c83a3a 16%, #b82b2b 47%, #b82929 49%, #b31e1e 50%, #b11d1d 53%, #a91a1a 72%, #a61919 90%, #b02222 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cf3e3e', endColorstr='#b02222',GradientType=0 );
+  /* IE6-8 */ }
+  .d-btn_type_no:hover {
+    text-shadow: 0px 0px 8px rgba(223, 182, 182, 0.5), -1px -1px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 6px 6px 10px 0px rgba(102, 20, 20, 0.75);
+    -webkit-box-shadow: 6px 6px 10px 0px rgba(102, 20, 20, 0.75);
+    box-shadow: 6px 6px 10px 0px rgba(102, 20, 20, 0.75); }
+
+.content {
+  background: url("img/bg.jpg") no-repeat black top center; }
+
+.d-form {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  margin: 24px auto;
+  padding: 72px 15px 321px;
+  width: 810px;
+  background-color: rgba(255, 255, 255, 0.25);
+  position: relative;
+  text-shadow: 1px 1px 0 #000; }
+
+.d-form__header {
+  background-color: rgba(51, 51, 51, 0.5);
+  text-align: center;
+  color: #ccc;
+  font-size: 24px;
+  padding: 15px 15px 5px;
+  -moz-border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -khtml-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0; }
+
+.d-form__body {
+  background-color: rgba(51, 51, 51, 0.5);
+  font-size: 14px;
+  line-height: 17px;
+  color: #999;
+  padding: 0 15px 13px;
+  -moz-border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  -khtml-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px; }
+
+.d-form__footer {
+  background-color: rgba(51, 51, 51, 0.5);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  line-height: 40px;
+  padding: 0 15px;
+  font-size: 11px;
+  color: #999; }
