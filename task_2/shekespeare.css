@@ -15,10 +15,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
   outline: none; }
 
-html {
-  height: 101%;
-  /* always display scrollbars */ }
-
 body {
   font-size: 62.5%;
   line-height: 1;
@@ -64,7 +60,7 @@ a:hover {
   background: #fff;
   padding: 1em;
   color: #444;
-  font: 'Helvetica Neue', Arial, sans-serif; }
+  font: "Helvetica Neue", Arial, sans-serif; }
 
 .d__header {
   font-size: 2.5em;
